@@ -16,3 +16,17 @@ I'd like to see if a bike is working
 | Person      |              |
 | Bike        | working?     |
 | DockingStation | release_bike |
+
+
+As a member of the public
+So I can return bikes I've hired
+I want to dock my bike at the docking station
+
+As a member of the public
+So I can decide whether to use the docking station
+I want to see a bike that has been docked
+
+
+Creating a Docking Station for a bike, and creating a bike for that station
+station = DockingStation.new
+bike = station.release_bike
