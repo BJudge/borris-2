@@ -34,6 +34,10 @@ As a system maintainer,
 So that I can plan the distribution of bikes,
 I want a docking station to have a default capacity of 20 bikes.
 
+As a system maintainer,
+So that busy areas can be served more effectively,
+I want to be able to specify a larger capacity when necessary.
+
 
 Creating a Docking Station for a bike, and creating a bike for that station
 station = DockingStation.new
