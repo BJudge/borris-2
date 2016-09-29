@@ -1,7 +1,9 @@
 require 'docking_station'
+require 'support/shared_examples_for_bike_container'
 
 describe DockingStation do
   it { is_expected.to respond_to :release_bike }
+  it_behaves_like BikeContainer
 
   describe 'initialization' do
     subject { DockingStation.new }
@@ -34,6 +36,7 @@ describe DockingStation do
     end
 
   end
+
 
   describe '#dock' do
     let(:bike) { Bike.new }

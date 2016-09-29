@@ -1,7 +1,7 @@
 
 class Van
 
-  def collect_from_station
+  def collect_from_station(bike)
 
   end
 
